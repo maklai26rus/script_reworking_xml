@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<RequestCode>201216122140</RequestCode>
+	<HospitalCode>20-12</HospitalCode>
+	<HospitalName>Больница</HospitalName>
+	<DepartmentCode>6</DepartmentCode>
+	<DepartmentName>Отделение диализа </DepartmentName>
+	<DoctorCode>116</DoctorCode>
+	<DoctorName>ФИО</DoctorName>
+	<SamplingDate>2021-12-14T22:54:00</SamplingDate>
+	<ReadOnly>false</ReadOnly>
+	<Patient>
+		<Code>000000002789</Code>
+		<FirstName>Имя</FirstName>
+		<LastName>Фамилия</LastName>
+		<MiddleName>Отчество</MiddleName>
+		<BirthDay>6</BirthDay>
+		<BirthMonth>2</BirthMonth>
+		<BirthYear>1951</BirthYear>
+		<Sex>2</Sex>
+		<Country>Россия</Country>
+		<City>город</City>
+		<Street>50 лет ВЛКСМ ул</Street>
+		<Building>2323</Building>
+		<Flat>46</Flat>
+		<InsuranceCompany>Страховая компания</InsuranceCompany>
+		<PolicySeries/>
+		<PolicyNumber>2657****000555</PolicyNumber>
+		<PatientCard>
+			<CardNr>2789</CardNr>
+			<UserFields/>
+		</PatientCard>
+	</Patient>
+	<Samples>
+		<Sample>
+			<BiomaterialCode>303</BiomaterialCode>
+			<Priority>0</Priority>
+			<Targets>
+				<Target>
+					<Code>10.21.1</Code>
+					<Priority>0</Priority>
+					<ReadOnly>false</ReadOnly>
+				</Target>
+			</Targets>
+		</Sample>
+		<Sample>
+			<BiomaterialCode>303</BiomaterialCode>
+			<Priority>0</Priority>
+			<Targets>
+				<Target>
+					<Code>20.200</Code>
+					<Priority>0</Priority>
+					<ReadOnly>false</ReadOnly>
+				</Target>
+			</Targets>
+		</Sample>
+	</Samples>
+	<UserFields>
+		<UserField>
+			<Code>Agreement</Code>
+			<Value>20-12 СКМЦАД</Value>
+		</UserField>
+		<UserField>
+			<Code>ADRES</Code>
+			<Value>Ставропольский край, Ставрополь г, 50 лет ВЛКСМ ул</Value>
+		</UserField>
+	</UserFields>
+</Request>
